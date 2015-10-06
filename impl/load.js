@@ -38,7 +38,7 @@ define([
 				dependencies = jsonElements = [config._layerMid + "_" + locale];
 			} else {
 				dependencies = jsonElements.map(function (element) {
-					return "requirejs-text/text!../cldr/" + locale + "/" + element + ".json";
+					return "requirejs-text/text!cldr-data/main/" + locale + "/" + element + ".json";
 				});
 			}
 

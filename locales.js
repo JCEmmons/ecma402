@@ -91,11 +91,11 @@ define([
 		onLayerEnd: function (write, data) {
 			// Calculate layer path
 			var match = data.path.match(/^(.*\/)?(.*)\.js$/);
-			var partialLayerPath = (match[1] || "") + "cldr/" + match[2] + "_";
+			var partialLayerPath = (match[1] || "") + "cldr-data/" + match[2] + "_";
 
 			// Calculate layer mid
 			match = data.name.match(/^(.*\/)?(.*)$/);
-			var layerMid = (match[1] || "") + "cldr/" + match[2];
+			var layerMid = (match[1] || "") + "cldr-data/" + match[2];
 
 			locales.forEach(function (locale) {
 				var path = partialLayerPath + locale + ".js";

@@ -2,6 +2,7 @@
 	"name": "ecma402",
 	"version": "1.0.0",
 	"dependencies": {
+		"cldr-data": ">=28",
 		"requirejs": "2.1.x",
 		"requirejs-text": "2.0.x",
 		"requirejs-dplugins": "0.5.x"

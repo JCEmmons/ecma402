@@ -33,7 +33,7 @@ define([ "intern!object", "intern/chai!assert", "ecma402/Intl" ], function (regi
 				"input" : new Date("1970-01-01T00:00:00Z").getTime(),
 				"expected" : "Thursday, January 1, 1970 AD"
 			}, {
-				"locales" : "zh-Hant",
+				"locales" : "zh",
 				"options" : {
 					year : "numeric",
 					month : "short",
@@ -41,7 +41,7 @@ define([ "intern!object", "intern/chai!assert", "ecma402/Intl" ], function (regi
 					timeZone : "UTC"
 				},
 				"input" : new Date("1970-01-01T00:00:00Z").getTime(),
-				"expected" : "1970年1月1日"
+				"expected" : "1970/1/1"
 			}, {
 				"locales" : "en-US",
 				"options" : {

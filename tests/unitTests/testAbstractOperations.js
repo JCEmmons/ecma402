@@ -47,8 +47,8 @@ define([ "intern!object", "intern/chai!assert", "ecma402/Intl" ], function (regi
 				"bestfit" : "zh-Hant"
 			}, {
 				"input" : "zh-MO",
-				"lookup" : "zh-Hant",
-				"bestfit" : "zh-Hant-HK"
+				"lookup" : "zh-Hant-MO",
+				"bestfit" : "zh-Hant-MO"
 			}, {
 				"input" : "zh-HK-VARIANT",
 				"lookup" : "zh-Hant-HK",
@@ -63,8 +63,8 @@ define([ "intern!object", "intern/chai!assert", "ecma402/Intl" ], function (regi
 				"bestfit" : "sr"
 			}, {
 				"input" : "pt-TL",
-				"lookup" : "pt",
-				"bestfit" : "pt-PT"
+				"lookup" : "pt-TL",
+				"bestfit" : "pt-TL"
 			}, {
 				"input" : "en-GB-u-co-phonebk",
 				"lookup" : "en-GB",
